@@ -8,9 +8,5 @@ export const Header = styled.ImageBackground`
   width: 100%;
   height: 250px;
   justify-content: flex-end;
-  align-items: center;
-`;
-
-export const Title = styled.Text`
-  color: #FFF;
+  padding: 0 24px 16px;
 `;
