@@ -1,6 +1,6 @@
 ## :page_with_curl: Projeto
 
-Criando interfaces modernas no React-Native.
+Criando a estrutura para construir interfaces modernas no React-Native.
 Utilizando o Styled-Component, essa ferramenta vai me proporcionar um código limpo, me ajuda a separar a lógica da interface da estilização, conseguentemente me proporcionando uma fácil manutenção de código e também ter flexibilidade para desenvolver as interfaces.
 E utilizando o Adobe color wheel [veja mais dessa ferramenta](https://color.adobe.com/pt/create/color-wheel)
 O Adobe Color Wheel é uma ferramenta focada para design utilizando o famoso disco de cores do Isaac Newton.
@@ -18,3 +18,5 @@ Triade: essa técnica vai fazer uma espécie de triângulo dentro do círculo cr
 Atualmente desenvolver interfaces modernas não é só se preocupar com o que está aparecendo em tela, só se preocupar com o que está aparecendo visualmente, é muito importante se preocupar com a estrutura, cuidar da arquitetura, tudo aquilo que está por trás daquilo que tem um resultado visual.
 
 Complementar:  essa técnica vai me trazer cores totalmente opostas como por exemplo: o oposto do verde é o vermelho(essa técnica é muito utilizado quando queremos dar o senso de oposição, ou quando queremos trabalhar muito o contraste)
+
+- Não adianta ser bonito se não é funcional!!! Temos que cuidar da usabilidade
