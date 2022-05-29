@@ -1,12 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
 
-import { Container } from './styles';
+import { Container, Header } from './styles';
 
 export function Home() {
   return (
     <Container>
-      <Text>Hello</Text>
+      <Header source={} />
     </Container>
   );
 }

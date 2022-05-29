@@ -5,3 +5,8 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
 `;
+
+export const Header = styled.ImageBackground`
+  width: 100%;
+  height: 250px;
+`;
