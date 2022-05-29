@@ -8,6 +8,9 @@ import {
 } from '@expo-google-fonts/roboto';
 import AppLoading from 'expo-app-loading';
 
+import { ThemeProvider } from 'styled-components/native';
+import THEME from './src/theme';
+
 import { Home } from "./src/screens/Home";
 
 export default function App() {
@@ -28,6 +31,8 @@ export default function App() {
   };
 
   return (
+    <ThemeProvider theme={THEME}>
     <Home />
+    </ThemeProvider>
   );
 }
