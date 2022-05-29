@@ -1,5 +1,5 @@
 import 'styled-components';
-import THEME from '.';
+import theme from '.';
 
 // sobrescrevendo o padrão do styled-components
 declare module 'styled-components' {
@@ -7,7 +7,7 @@ declare module 'styled-components' {
   // exatamente igual ao meu arquivo de tema
   // o typeof vai olhar para o conteúdo do THEME e básiado nesse conteúdo ele
   // vai inferir, vai entendar qual é a tipagem necessária.
-  type ThemeType = typeof THEME;
+  type ThemeType = typeof theme;
 
   // o DefaultTheme é do styled-components, eu estou pedindo para o
   // styled-components também herdar a tipagem que eu criei 
